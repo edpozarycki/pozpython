@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Description: An AWS Serverless Specification template describing your function.
+Resources:
+  pozpython:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Description: A sample framework for building an Alexa skill in Python
+      Handler: lambdaPythonAlexaCode.lambda_handler
+      MemorySize: 128
+      Role: 'arn:aws:iam::217864460161:role/myAlexaRole'
+      Runtime: python2.7
+      Timeout: 3

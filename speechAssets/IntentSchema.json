@@ -1,0 +1,44 @@
+{
+  "intents": [
+    {
+      "intent": "Hello"
+    },
+    {
+      "intent": "Goodbye"
+    },
+    {
+      "slots": [
+        {
+          "name": "family_member",
+          "type": "LIST_OF_FAMILY_MEMBERS"
+        }
+      ],
+      "intent": "PozIndividualFact"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "family_member",
+          "type": "LIST_OF_FAMILY_MEMBERS"
+        },
+        {
+          "name": "fact",
+          "type": "FACTS"
+        }
+      ],
+      "intent": "PutIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "PozFactIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}

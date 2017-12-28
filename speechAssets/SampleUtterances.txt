@@ -1,0 +1,17 @@
+Hello hello
+Hello hi
+Hello hey
+Goodbye bye
+Goodbye see ya
+Goodbye later
+Goodbye goodbye
+PozIndividualFact Give me a fact about {family_member}
+PozIndividualFact Tell me something about {family_member}
+PutIntent Put an entry in the database for {family_member}
+PutIntent Add a fact to the database
+PutIntent Add something to the database
+PutIntent {family_member} {fact}
+PutIntent {fact}
+PutIntent {family_member}
+PozFactIntent Give me a family fact
+PozFactIntent family fact please

@@ -1,0 +1,49 @@
+{
+    "pozpython": {
+        "lambda": {
+            "session": {
+                "new": false,
+                "sessionId": "SessionId.dbcc84d8-3e6d-47ff-9871-c668f1ab2de9",
+                "application": {
+                    "applicationId": "amzn1.ask.skill.f95d6302-e53d-4e98-8f84-3c206701ef29"
+                },
+                "attributes": {},
+                "user": {
+                    "userId": "amzn1.ask.account.AHDOPLZ6O5SVQ52SJ2NFNN75TIJGOEEQ4LPSOCDVIMK2BIEM7SG3RET32WV2OB5E7CGOR6BY2PE6T6N7I4AESFGLBLKAK5RT3GF42ND7F22RPIFBJF7JKODCCMIJDVT4HJU6XW4PJCYURPPIWLFMUR4LJJ6IUNDV3SUKX55EKNAT5AQQVJIBVTJYBPOPP4EQCZKYOC765MQOM2Y"
+                }
+            },
+            "request": {
+                "type": "IntentRequest",
+                "requestId": "EdwRequestId.bb386cc4-ee36-49e8-9b5c-0214f4ede653",
+                "intent": {
+                    "name": "PozIndividualFact",
+                    "slots": {
+                        "family_member": {
+                            "name": "family_member",
+                            "value": "Tyler"
+                        }
+                    }
+                },
+                "locale": "en-US",
+                "timestamp": "2017-12-28T03:54:02Z"
+            },
+            "context": {
+                "AudioPlayer": {
+                    "playerActivity": "IDLE"
+                },
+                "System": {
+                    "application": {
+                        "applicationId": "amzn1.ask.skill.f95d6302-e53d-4e98-8f84-3c206701ef29"
+                    },
+                    "user": {
+                        "userId": "amzn1.ask.account.AHDOPLZ6O5SVQ52SJ2NFNN75TIJGOEEQ4LPSOCDVIMK2BIEM7SG3RET32WV2OB5E7CGOR6BY2PE6T6N7I4AESFGLBLKAK5RT3GF42ND7F22RPIFBJF7JKODCCMIJDVT4HJU6XW4PJCYURPPIWLFMUR4LJJ6IUNDV3SUKX55EKNAT5AQQVJIBVTJYBPOPP4EQCZKYOC765MQOM2Y"
+                    },
+                    "device": {
+                        "supportedInterfaces": {}
+                    }
+                }
+            },
+            "version": "1.0"
+        }
+    }
+}
