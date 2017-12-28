@@ -19,7 +19,6 @@ import random
 
 
 # --------------- Helpers that build all of the responses ----------------------
-
 def build_speechlet_response(title, output, reprompt_text, should_end_session):
     return {
         'outputSpeech': {
@@ -71,8 +70,7 @@ def get_welcome_response():
 
 def handle_session_end_request():
     card_title = "Session Ended"
-    speech_output = "Thank you for trying the Alexa Poz Python Framework Skills sample. " \
-                    "Have a nice day! "
+    speech_output = "See you later Alligator!"
     # Setting this to true ends the session and exits the skill.
     should_end_session = True
     return build_response({}, build_speechlet_response(
